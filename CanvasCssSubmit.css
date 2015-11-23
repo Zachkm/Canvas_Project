@@ -1,0 +1,48 @@
+body{
+	background: black;
+}
+
+#holder{
+	position: relative;
+}
+
+canvas{
+	border: 1px solid purple;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#titleScreen{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#creator{
+	position: absolute;
+	color: #33CCFF;
+	text-align: right;
+	right: 0;
+	bottom: 0;
+	font-size: 30px;
+	font-size: 2vw;
+}
+
+#playButton{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	color: #33CCFF;
+	border: 3px solid transparent;
+	font-size: 8px;
+	font-size: 8vw;
+	cursor: pointer;
+	cursor: hand;
+	/*Switch color and border to transparent when size is right*/
+}
